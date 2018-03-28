@@ -11,7 +11,7 @@ public class _13_ToolBar {
         jFrame.add(jPanel);
 
 
-        System.out.println("Hello Git!");
+        System.out.println("Hello GitHub!");
 
 
         jPanel.revalidate();
