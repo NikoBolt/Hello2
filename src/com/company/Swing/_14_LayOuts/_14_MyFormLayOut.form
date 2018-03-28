@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.Swing._14_LayOuts._14_MyFormLayOut">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="50" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="575" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="35290" class="javax.swing.JButton" binding="button1" custom-create="true" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <vspacer id="8d532">
+        <constraints/>
+      </vspacer>
+      <hspacer id="eb0d4">
+        <constraints/>
+      </hspacer>
+      <component id="872ac" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="ю.б олд  олбю ло ол"/>
+        </properties>
+      </component>
+      <component id="1dc9e" class="javax.swing.JTextArea" binding="ьбюьбюьбЬджTextArea" default-binding="true">
+        <constraints/>
+        <properties>
+          <rows value="10"/>
+          <text value="ьбюьбюьб ьдж"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

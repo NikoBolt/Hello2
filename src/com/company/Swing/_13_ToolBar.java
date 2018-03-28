@@ -11,15 +11,15 @@ public class _13_ToolBar {
         jFrame.add(jPanel);
 
 
-        JToolBar jToolBar = new JToolBar("title");
+        JToolBar jToolBar = new JToolBar("title"); // можно перетаскивать
         JButton one = new JButton("one");
-        one.setToolTipText("first");
+        one.setToolTipText("first");        // при наведении на кнопку появляется подсказка
 
         JButton two = new JButton("two");
         jToolBar.add(one);
         jToolBar.add(two);
 
-        JButton three = new JButton("three");
+        JButton three = new JButton("three");   // разделительная полоса между кнопками
         jToolBar.addSeparator();
         jToolBar.add(three);
 
