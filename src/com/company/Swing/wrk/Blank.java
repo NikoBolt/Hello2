@@ -9,7 +9,7 @@ public class Blank {
         jFrame.add(jPanel);
 
 
-        dsfdfsd;
+
 
 
         jPanel.revalidate();
