@@ -11,7 +11,19 @@ public class _13_ToolBar {
         jFrame.add(jPanel);
 
 
-        System.out.println("Hello GitHub!");
+        JToolBar jToolBar = new JToolBar("title");
+        JButton one = new JButton("one");
+        one.setToolTipText("first");
+
+        JButton two = new JButton("two");
+        jToolBar.add(one);
+        jToolBar.add(two);
+
+        JButton three = new JButton("three");
+        jToolBar.addSeparator();
+        jToolBar.add(three);
+
+        jPanel.add(jToolBar);
 
 
         jPanel.revalidate();
