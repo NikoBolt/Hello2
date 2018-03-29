@@ -1,4 +1,4 @@
-package com.company.Swing.wrk;
+package com.company.AWT.wrk;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,7 +1,6 @@
-package com.company.Swing.wrk;
+package com.company.AWT.wrk;
 
 import javax.swing.*;
-import java.awt.*;
 
 public class Blank {
     public static void main(String[] args) {
