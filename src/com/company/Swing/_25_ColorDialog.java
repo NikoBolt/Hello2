@@ -10,6 +10,7 @@ import java.awt.event.ActionListener;
 /**
  * Created by Nikolay on 29.03.18.
  */
+
 public class _25_ColorDialog {
     public static void main(String[] args) {
         JFrame jFrame = new myFrame(600,800);
