@@ -15,11 +15,11 @@ public class _16_Border {
         jFrame.add(jPanel);
 
             // элементы распределяются по 5-ти позициям
-        jFrame.add(new JButton("one"), BorderLayout.NORTH);
-        jFrame.add(new JButton("two"), BorderLayout.WEST);
-        jFrame.add(new JButton("three"), BorderLayout.CENTER);
-        jFrame.add(new JButton("four"), BorderLayout.EAST);
-        jFrame.add(new JButton("five"), BorderLayout.SOUTH);
+        jFrame.add(new JButton("NORTH"), BorderLayout.NORTH);
+        jFrame.add(new JButton("WEST"), BorderLayout.WEST);
+        jFrame.add(new JButton("CENTER"), BorderLayout.CENTER);
+        jFrame.add(new JButton("EAST"), BorderLayout.EAST);
+        jFrame.add(new JButton("SOUTH"), BorderLayout.SOUTH);
 
 
         jPanel.revalidate();
