@@ -1,17 +1,14 @@
-package com.company.AWT.wrk;
+package com.company.AWT;
+
+import com.company.AWT.wrk.myFrame;
 
 import javax.swing.*;
 import java.awt.*;
 
-public class Blank {
-//    public static void main(String[] args) {
-//        JFrame jFrame = new myFrame(600,800);
-//        final JPanel jPanel = new JPanel();
-//        jFrame.add(jPanel);
-//
-//        jPanel.revalidate();
-//    }
-
+/**
+ * Created by Nikolay on 05.04.18.
+ */
+public class _03_Stroke {
     public static void main(String[] args) {
         JFrame jFrame = new myFrame(600,800);
         jFrame.add(new MyComponent());
